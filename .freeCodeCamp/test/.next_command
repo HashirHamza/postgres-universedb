@@ -86,3 +86,5 @@ git commit -m "first commit"
 git push -u origin main
 git remote set-url origin https://github.com/HashirHamza/postgres-universedb.git
 git push -u origin main
+pg_dump -cC --inserts -U freecodecamp universe > universe.sql
+git add --all
